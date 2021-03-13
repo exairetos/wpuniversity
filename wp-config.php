@@ -32,7 +32,7 @@ if(strstr($_SERVER['SERVER_NAME'], 'localhost')){
 	define( 'DB_PASSWORD', 'root' );
 	define( 'DB_HOST', 'localhost' );
 } else {
-	define( 'DB_NAME', 'dev' );
+	define( 'DB_NAME', 'heroku_cdc0d877ac918a0' );
 	define( 'DB_USER', 'b288ada66ff533' );
 	define( 'DB_PASSWORD', '7b7d0844' );
 	define( 'DB_HOST', 'eu-cdbr-west-03.cleardb.net/' );
