@@ -19,17 +19,23 @@
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
+// mysql://
+// b288ada66ff533
 
+// :
+// 7b7d0844
+// @eu-cdbr-west-03.cleardb.net/
+// heroku_cdc0d877ac918a0?reconnect=true
 if(strstr($_SERVER['SERVER_NAME'], 'localhost')){
 	define( 'DB_NAME', 'local' );
 	define( 'DB_USER', 'root' );
 	define( 'DB_PASSWORD', 'root' );
 	define( 'DB_HOST', 'localhost' );
 } else {
-	define( 'DB_NAME', 'local' );
-	define( 'DB_USER', 'root' );
-	define( 'DB_PASSWORD', 'root' );
-	define( 'DB_HOST', 'localhost' );
+	define( 'DB_NAME', 'dev' );
+	define( 'DB_USER', 'b288ada66ff533' );
+	define( 'DB_PASSWORD', '7b7d0844' );
+	define( 'DB_HOST', 'eu-cdbr-west-03.cleardb.net/' );
 }
 
 
