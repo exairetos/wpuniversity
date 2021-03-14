@@ -2,12 +2,7 @@
 get_header();
     while(have_posts()){
         the_post(); 
-        pageBanner(array(
-            // 'title' => 'Hello this is the title',
-            // 'subtitle' => 'Hi, this is the subtitle',
-            // 'photo' => 'https://images.unsplash.com/photo-1522337235603-5eec81a1dbff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1655&q=80'
-
-        ));
+        pageBanner();
         ?>
 
         <div class="container container--narrow page-section">
